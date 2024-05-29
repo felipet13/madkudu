@@ -127,3 +127,8 @@ for index, row in top3_movies.iterrows():
     st.write(f"Votes: {row['Votes']}")
     st.write(f"Review: {row['Review']}")
     st.write('---------')
+
+
+st.markdown("""
+    **In summary a pinch of drama funny script and unexpected drifts in movie plot make for a formulae for a block buster with Nicolas Cage.**
+""")
