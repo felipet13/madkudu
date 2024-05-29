@@ -130,5 +130,5 @@ for index, row in top3_movies.iterrows():
 
 
 st.markdown("""
-    <h2><b>In summary a pinch of drama funny script and unexpected drifts in movie plot make for a formulae for a block buster with Nicolas Cage.</b></h2>
-""", unsafe_allow_html=True)
+    **As expected there is no correlation between quality and duration of movies. We already have a preliminary genre analysis, but lets see as a final check the reviews of the top 3 movies to assert if there is any similarity on style, theme or else that makes a top rated movie what it is.**
+""")
