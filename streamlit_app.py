@@ -104,6 +104,7 @@ fig3.update_layout(yaxis2=dict(title='Votes'))
 fig3.update_layout(xaxis=dict(categoryorder='total descending'))
 fig3.update_traces(textposition='outside')
 fig3.update_layout(uniformtext_minsize=8, uniformtext_mode='hide')
+fig3.update_layout(coloraxis=dict(colorscale='Blues'))
 st.plotly_chart(fig3)
 
 st.markdown("""
