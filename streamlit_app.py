@@ -130,5 +130,5 @@ for index, row in top3_movies.iterrows():
 
 
 st.markdown("""
-    **In summary a pinch of drama funny script and unexpected drifts in movie plot make for a formulae for a block buster with Nicolas Cage.**
-""")
+    <h2><b>In summary a pinch of drama funny script and unexpected drifts in movie plot make for a formulae for a block buster with Nicolas Cage.</b></h2>
+""", unsafe_allow_html=True)
